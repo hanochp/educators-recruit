@@ -4,7 +4,6 @@
 DROP TABLE IF EXISTS dbo.Educator;
 GO
 
-
 CREATE TABLE dbo.Educator (
     educator_id INT IDENTITY(1,1) PRIMARY KEY,
     first_name NVARCHAR(50) NOT NULL,
